@@ -8,7 +8,13 @@ const app = express();
 const PORT = 5000;
 
 // Enable CORS for all origins
-app.use(cors());
+app.use(cors({
+    origin: (origin, callback) => {
+      callback(null, origin); // allow requests from any origin
+    },
+    credentials: true
+  }));
+  
 
 // Middleware to parse incoming JSON requests
 app.use(bodyParser.json());

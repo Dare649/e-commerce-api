@@ -3,19 +3,19 @@
       "id": 1,
       "title": "Product 1",
       "price": 1000,
-      "image": "https://via.placeholder.com/150"
+      "image": "https://res.cloudinary.com/dzdmvdziv/image/upload/v1743588509/product_images/1743588508748.jpg"
     },
     {
       "id": 2,
       "title": "Product 2",
       "price": 1500,
-      "image": "https://via.placeholder.com/150"
+      "image": "https://res.cloudinary.com/dzdmvdziv/image/upload/v1743588509/product_images/1743588508748.jpg"
     },
     {
       "id": 3,
       "title": "Product 3",
       "price": 2000,
-      "image": "https://via.placeholder.com/150"
+      "image": "https://res.cloudinary.com/dzdmvdziv/image/upload/v1743588509/product_images/1743588508748.jpg"
     }
   ]
   
